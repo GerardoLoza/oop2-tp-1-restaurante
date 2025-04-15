@@ -1,3 +1,5 @@
+package modelo;
+
 import java.util.List;
 
 public class Menu {
@@ -15,7 +17,6 @@ public class Menu {
                 return bebida;
             }
         }
-        //TODO: REVISAR EL TIPO DE EXCEPCION QUE SE LANZA
         throw new IllegalArgumentException("Bebida no encontrada: " + nombre);
     }
 
@@ -25,7 +26,6 @@ public class Menu {
                 return platoPrincipal;
             }
         }
-        //TODO: REVISAR EL TIPO DE EXCEPCION QUE SE LANZA
         throw new IllegalArgumentException("Plato favorito no encontrado: " + nombre);
     }
 }

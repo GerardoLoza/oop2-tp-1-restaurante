@@ -1,3 +1,5 @@
+package modelo;
+
 public class TarjetaMastercard implements TarjetaCredito {
 
     private static final float DESCUENTO_MASTERCARD = 0.02f; //Descuento del 2% en el total de los platos principales

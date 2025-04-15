@@ -1,3 +1,5 @@
+package modelo;
+
 public class TarjetaComarcaPlus implements TarjetaCredito {
 
     private static final float DESCUENTO_COMARCA_PLUS = 0.02f; //Descuento del 2% en el costo total "Bebidas + "Platos Principales"

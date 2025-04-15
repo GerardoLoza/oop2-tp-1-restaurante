@@ -1,8 +1,10 @@
-public class PlatoPrincipal {
+package modelo;
+
+public class Bebida {
     private String nombre;
     private double precio;
 
-    public PlatoPrincipal(String nombre, double precio) {
+    public Bebida(String nombre, double precio) {
         this.nombre = nombre;
         this.precio = precio;
     }

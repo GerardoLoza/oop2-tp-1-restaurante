@@ -1,3 +1,5 @@
+package modelo;
+
 public enum Propina {
     BAJA(0.02),
     MEDIA(0.03),

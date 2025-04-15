@@ -1,3 +1,5 @@
+package modelo;
+
 public class TarjetaVisa implements TarjetaCredito {
 
     private static final float DESCUENTO_VISA = 0.03f; //Descuento del 3% en el total de las bebidas

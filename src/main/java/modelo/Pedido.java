@@ -1,3 +1,6 @@
+package modelo;
+
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -5,6 +8,7 @@ public class Pedido {
     private List<Bebida> bebidasSeleccionadas;
     private List<PlatoPrincipal> platosPrincipalesSeleccionados;
     private boolean confirmado;
+    private LocalDate fechaPedido;
 
     public Pedido() {
         this.bebidasSeleccionadas = new ArrayList<>();
@@ -39,6 +43,11 @@ public class Pedido {
     }
 
     public void confirmarPedido() {
+        this.fechaPedido = LocalDate.now();
         confirmado = true;
+    }
+
+    public String obtenerFechaPedido() {
+        return fechaPedido.toString();
     }
 }

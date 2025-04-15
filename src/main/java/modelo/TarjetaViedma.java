@@ -1,3 +1,5 @@
+package modelo;
+
 public class TarjetaViedma implements TarjetaCredito {
 
     //No posee descuentos
